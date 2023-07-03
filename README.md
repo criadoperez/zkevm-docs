@@ -37,7 +37,7 @@ Note that on macOS, you also need Xcode and Command Line Tools.
 * Install [Node.js](https://nodejs.org/en/download/) version >= 16.14.1
 * Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.22  
 
-### Run the Wiki locally
+### Run locally
 
 1. Fork the repo. 
    > For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
