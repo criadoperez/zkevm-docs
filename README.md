@@ -62,7 +62,7 @@ Note that on macOS, you also need Xcode and Command Line Tools.
     yarn install
     ```
 
-5. Run the Wiki locally. 
+5. Run docusaurus locally. 
    The following command will start a local development server and open a browser window. 
    Most changes are reflected live without having to restart the server.
 
