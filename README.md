@@ -35,7 +35,7 @@ developer docs from the outset.
 Note that on macOS, you also need Xcode and Command Line Tools.
 
 * Install [Node.js](https://nodejs.org/en/download/) version >= 16.14.1
-* Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
+* Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.22  
 
 ### Run the Wiki locally
 
@@ -56,19 +56,13 @@ Note that on macOS, you also need Xcode and Command Line Tools.
     cd zkevm-docs
     ```
 
-4. If you don't have yarn already installed you can activate `corepack` to get yarn as [recommended by yarn's website](https://yarnpkg.com/getting-started/install)
-
-    ```bash
-    npm i -g corepack
-    ```
-
-5. Install the dependencies.
+4. Install the dependencies.
    
     ```
     yarn install
     ```
 
-6. Run the Wiki locally. 
+5. Run the Wiki locally. 
    The following command will start a local development server and open a browser window. 
    Most changes are reflected live without having to restart the server.
 
