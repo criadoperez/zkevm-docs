@@ -67,7 +67,7 @@ Note that on macOS, you also need Xcode and Command Line Tools.
    Most changes are reflected live without having to restart the server.
 
     ```
-    npx docusaurus start
+    yarn run start
     ```
 
 ### Make changes using Git GUI and code editor
