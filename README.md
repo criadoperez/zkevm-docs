@@ -35,12 +35,14 @@ developer docs from the outset.
 Note that on macOS, you also need Xcode and Command Line Tools.
 
 * Install [Node.js](https://nodejs.org/en/download/) version >= 16.14.1
-* Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.22  
+* Install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)  
 
 ### Run the Wiki locally
 
 1. Fork the repo. 
    > For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
+
+   > If you previously cloned the repository, be sure to sync your fork with the latest changes. 
    
 2. Clone your forked repo.
    
@@ -54,46 +56,24 @@ Note that on macOS, you also need Xcode and Command Line Tools.
     cd zkevm-docs
     ```
 
-4. Link your cloned repo to the upstream repo.
-   > For help, see [GitHub Docs: Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork).
-   
-    ```
-    git remote add upstream https://github.com/maticnetwork/zkevm-docs
+4. If you don't have yarn already installed you can activate `corepack` to get yarn as [recommended by yarn's website](https://yarnpkg.com/getting-started/install)
+
+    ```bash
+    npm i -g corepack
     ```
 
-5. If you have already cloned the repository, be sure to sync your fork with the latest changes. 
-   > For help, refer to [GitHub Docs: Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
-
-    ```
-    git checkout master
-    git fetch upstream
-    git merge upstream/master
-    ```
-
-6. Install the dependencies.
+5. Install the dependencies.
    
     ```
     yarn install
     ```
-    
-   The site is built using Docusaurus. You may need to install Docusaurus before running the Wiki locally.
 
-   ```
-   yarn add docusaurus
-   ```
-   
-   Alternatively, you can upgrade Docusaurus.
-
-   ```
-   yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest
-   ```
-
-7. Run the Wiki locally. 
+6. Run the Wiki locally. 
    The following command will start a local development server and open a browser window. 
    Most changes are reflected live without having to restart the server.
 
     ```
-    yarn start
+    npx docusaurus start
     ```
 
 ### Make changes using Git GUI and code editor
